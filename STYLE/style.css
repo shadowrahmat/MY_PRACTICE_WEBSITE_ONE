@@ -32,3 +32,144 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* product Design */
+
+.products {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.product_items {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.product_item {
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ff0000;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.product_item_img {
+  width: 100%;
+  height: 220px;
+  /* object-fit: cover; */
+  border-radius: 5px;
+}
+
+.product_item_img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.product_item button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Natural section design */
+
+.natural {
+  padding: 100px 0;
+  background-color: gray;
+}
+.natural_items_container {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.Natural_item {
+  width: 300px;
+
+  text-align: center;
+}
+
+.natural_item_img {
+  width: 100%;
+}
+
+.natural_item_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Natural_item button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* office desing */
+
+.office {
+  padding: 100px 0;
+}
+
+.office_container {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* border: 4px solid red; */
+}
+
+.office_item {
+  width: 300px;
+}
+
+.office_item h1 {
+  margin-top: 20px;
+}
+
+.office_imgs {
+  width: 100%;
+}
+
+.office_imgs img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* home desing */
+.home {
+  padding: 100px 0;
+}
+
+.home_content {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content_itmes {
+  width: 300px;
+}
+
+.home_img {
+  width: 100%;
+}
+
+.home_img img {
+  width: 100%;
+  object-fit: cover;
+}
